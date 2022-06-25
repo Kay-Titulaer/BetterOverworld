@@ -1,6 +1,6 @@
 {
   "parrent": "item/generated",
   "textures": {
-    "layer0": "better_overworld:items/raw_tanzanite"
+    "layer0": "better_overworld:item/raw_tanzanite"
   }
 }

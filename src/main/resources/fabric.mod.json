@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "better_overworld",
+  "version": "${version}",
+
+  "name": "Better Overworld",
+  "description": "Improves the overworld by adding new biomes, ores, trees, mobs and a lot more!",
+  "authors": [
+    "Kay Titulaer"
+  ],
+  "contact": {
+    "homepage": "kay-titulaer.github.io/better-overworld",
+    "sources": "https://github.com/kay-titulaer/better-overworld"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/better_overworld/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kaytitulaer.betteroverworld.Main"
+    ],
+    "client": [
+      "com.kaytitulaer.betteroverworld.Client"
+    ]
+  },
+  "mixins": [
+    "better_overworld.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
